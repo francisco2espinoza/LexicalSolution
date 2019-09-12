@@ -1,4 +1,37 @@
 html, body{
     margin: 0px;
     padding: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+#nav_top{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.nav_list{
+    display: flex;
+}
+nav li{
+    padding-right: 25px;
+    padding-left: 25;
+    list-style: none;
+}
+nav li a{
+    color: blue;
+    text-decoration: none;
+}
+h1{
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 600;
+}
+h2{
+    font-family: Merriweather;
+    font-size: 25px;
+    font-weight: bold;
+}
+h4{
+    font-size: 15px;
+    font-weight: 400;
 }
