@@ -10,27 +10,28 @@
     <title>LexicalSolution - Expande tu mundo</title>
 </head>
 <body>
-    <header>            <!-- Aqui comienza el la barra de encabezado -->
+    <header id="home">            <!-- Aqui comienza el la barra de encabezado -->
         <figure class="brand_image">
             <img alt="Imagen_Logotipo" src="images/LOGO_WEB_2_5x5.jpg"/>
         </figure>
         <nav class="nav_options">
             <ul class="nav_list">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Persona</a></li>
-                <li><a href="#">Empresa</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#person">Persona</a></li>
+                <li><a href="#empresa">Empresa</a></li>
             </ul>
         </nav>
-        <div class="botton_cell">
-                celular
+        <div>
+            <button>Celular</button>
         </div>
     </header>           <!-- Aqui termina la barra de encabezado-->
     <section>           <!-- Aqui comienza el hero -->
         <h1>Expande tus idiomas,<br>expande tu mundo.</h1>
+        <img alt="imagen_hero" src="images/Artboard 3.png" />
     </section>          <!-- Aqui termina el hero -->
     <section>           <!-- Aqui comienza la primera seccion -->
         <figure>
-            <img src="#"/>
+            <img  alt="imagen_section1" src="images/Artboard 5.png"/>
         </figure>
         <article>    
             <h2>La mejor manera de aprender<br>un idioma es rodearse de el.</h2>
@@ -45,7 +46,43 @@
         </article>    
     </section>          <!-- Aqui termina la primera seccion -->
     <footer>            <!-- Aqui comienza el footer -->
-        <!-- aca ira el contedio -->
+        <section id="suscription_form">
+            <!-- <h3>No te pierdas de nada: Noticias y ofertas!</h3> -->
+            <form action="/suscription/" id="form_suscription">
+                <label for="">No te pierdas de nada: Noticias y ofertas!</label>
+                <input type="email" placeholder="Correo" id="email_suscription"/>
+                <button>Suscribete</button>
+            </form>
+        </section>
+        <section id="full_nav">
+            <lu class="opt_footer">
+                <li>Av. Siempre libre</li>
+                <li>123455</li>
+                <li>Jesus Maria, Lima</li>
+                <li>Av. Siempre libre</li>
+                <li>Peru</li>
+                <li>+51997465838</li>
+            </lu>
+            <lu class="opt_footer">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#nosotros" target="_blank">Nosotros</a></li>
+                <li><a href="#personas" target="_blank">Personas</a></li>
+                <li><a href="#empresas" target="_blank">Empresas</a></li>
+                <li><a href="#contacto" target="_blank">Contacto</a></li>
+            </lu>
+            <lu class="opt_footer">
+                <li>Servicios</li>
+                <li>Precios</li>
+                <li>Trabaja con nosotros</li>
+                <li>Ayuda</li>
+            </lu>
+            <lu class="opt_footer">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Linkedin</li>
+            </lu>
+        </section>
     </footer>           <!-- Aqui termina el footer -->
     <script src="scripts/scrip.js"></script>
 </body>

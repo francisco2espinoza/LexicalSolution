@@ -35,3 +35,23 @@ h4{
     font-size: 15px;
     font-weight: 400;
 }
+footer{
+    background-color: #353535;
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+}
+#full_nav{
+    display: flex;
+    padding-right: 200px;
+    padding-left: 200px;
+    list-style: none;
+}
+#suscription_form{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#form_suscription{
+    justify-content: space-between;
+}
