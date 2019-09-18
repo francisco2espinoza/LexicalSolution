@@ -10,32 +10,33 @@
     <title>LexicalSolution - Expande tu mundo</title>
 </head>
 <body>
-    <header id="home">            <!-- Aqui comienza el la barra de encabezado -->
-        <figure class="brand_image">
-            <img alt="Imagen_Logotipo" src="images/LOGO_WEB_2_5x5.jpg"/>
+    <header class="nav_bar">
+        <figure class="brand_imageContainer">
+            <img alt="brand_image" src="images/LOGO_WEB_2_5x5.jpg"/>
         </figure>
         <nav class="nav_options">
             <ul class="nav_list">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#person">Persona</a></li>
-                <li><a href="#empresa">Empresa</a></li>
+                <li><a href="#home" class="link">Inicio</a></li>
+                <li><a href="#person" class="link">Persona</a></li>
+                <li><a href="#empresa" class="link">Empresa</a></li>
             </ul>
         </nav>
         <div>
             <button>Celular</button>
         </div>
-    </header>           <!-- Aqui termina la barra de encabezado-->
-    <section>           <!-- Aqui comienza el hero -->
-        <h1>Expande tus idiomas,<br>expande tu mundo.</h1>
-        <img alt="imagen_hero" src="images/Artboard 3.png" />
+    </header>
+    <section class="hero">           <!-- Aqui comienza el hero -->
+        <h1 class="title_hero">Expande tus idiomas,<br>expande tu mundo.</h1>
+        <h5 class="subtitle_hero">Entiende el mundo mas alla del idioma</h5>
+        <img alt="imagen_hero" src="images/Artboard 3.png"  class="image_hero"/>
     </section>          <!-- Aqui termina el hero -->
-    <section>           <!-- Aqui comienza la primera seccion -->
-        <figure>
-            <img  alt="imagen_section1" src="images/Artboard 5.png"/>
+    <section class="descripcion">           <!-- Aqui comienza la primera seccion -->
+        <figure class="image_descriptionContainer">
+            <img  class="image_description" alt="imagen_section1" src="images/Artboard 5.png"/>
         </figure>
-        <article>    
-            <h2>La mejor manera de aprender<br>un idioma es rodearse de el.</h2>
-            <h4>
+        <article class="article_description">    
+            <h2 class="title_description">La mejor manera de aprender<br>un idioma es rodearse de el.</h2>
+            <h4 class="text_description">
                 Lo que hace unico a LexicalSolution es que te prepara para comunicarte en<br>
                 tu nuevo idioma en la vida real. No se trata de las herramientas que<br>
                 pones a tu disposicion, sino de las competencias que adquieres con<br>
@@ -46,16 +47,15 @@
         </article>    
     </section>          <!-- Aqui termina la primera seccion -->
     <footer>            <!-- Aqui comienza el footer -->
-        <section id="suscription_form">
-            <!-- <h3>No te pierdas de nada: Noticias y ofertas!</h3> -->
+        <section class="suscription_bar">
             <form action="/suscription/" id="form_suscription">
-                <label for="">No te pierdas de nada: Noticias y ofertas!</label>
+                <label for="" id="title_suscription">No te pierdas de nada: Noticias y ofertas!</label>
                 <input type="email" placeholder="Correo" id="email_suscription"/>
-                <button>Suscribete</button>
+                <button id="button_suscription">Suscribete</button>
             </form>
         </section>
         <section id="full_nav">
-            <lu class="opt_footer">
+            <lu id="opt_footer">
                 <li>Av. Siempre libre</li>
                 <li>123455</li>
                 <li>Jesus Maria, Lima</li>
@@ -63,24 +63,24 @@
                 <li>Peru</li>
                 <li>+51997465838</li>
             </lu>
-            <lu class="opt_footer">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#nosotros" target="_blank">Nosotros</a></li>
-                <li><a href="#personas" target="_blank">Personas</a></li>
-                <li><a href="#empresas" target="_blank">Empresas</a></li>
-                <li><a href="#contacto" target="_blank">Contacto</a></li>
+            <lu id="opt_company">
+                <li><a href="#home" class="link_footer">Inicio</a></li>
+                <li><a href="#nosotros" class="link_footer">Nosotros</a></li>
+                <li><a href="#personas" class="link_footer">Personas</a></li>
+                <li><a href="#empresas" class="link_footer">Empresas</a></li>
+                <li><a href="#contacto" class="link_footer">Contacto</a></li>
             </lu>
-            <lu class="opt_footer">
-                <li>Servicios</li>
-                <li>Precios</li>
-                <li>Trabaja con nosotros</li>
-                <li>Ayuda</li>
+            <lu id="opt_other">
+                <li><a href="#" target="_blank" class="link_footer">Servicios</a></li>
+                <li><a href="#" target="_blank" class="link_footer">Precios</a></li>
+                <li><a href="#" target="_blank" class="link_footer">Trabaja con nosotros</a></li>
+                <li><a href="#" target="_blank" class="link_footer">Ayuda</a></li>
             </lu>
-            <lu class="opt_footer">
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Linkedin</li>
+            <lu id="opt_social">
+                <li><a href="#" target="_blank" class="link_footer">Facebook</a></li>
+                <li><a href="#" target="_blank" class="link_footer">Instagram</a></li>
+                <li><a href="#" target="_blank" class="link_footer">Twitter</a></li>
+                <li><a href="#" target="_blank" class="link_footer">Linkedin</a></li>
             </lu>
         </section>
     </footer>           <!-- Aqui termina el footer -->
