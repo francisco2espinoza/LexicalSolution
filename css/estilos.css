@@ -67,7 +67,7 @@ nav li a{
     margin-bottom: 0.2%;
 }
 .subtitle_hero{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     margin-top: 0%;
     margin-left: 14.3%;
@@ -89,6 +89,7 @@ nav li a{
 .image_descriptionContainer{
     width: 45%;
     padding: 3%;
+    box-sizing: border-box;
 }
 .image_description{
     width: 110%;
@@ -122,12 +123,39 @@ footer{
     font-size: 18px;
     font-weight: 300;
 }
-#suscription_form{
-    padding-right: 100px;
-    padding-left: 100px;
+.suscription_bar{
+    border-bottom: 1px white solid;
+    padding-left: 13%;
+    padding-right: 13%;
+    height: 45px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 #form_suscription{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: space-between;
+    height: 43px;
+}
+#title_suscription{
+    font-weight: 500;
+}
+#email_suscription{
+    height: 30px;
+    width: 350px;
+    padding-left: 20px;
+}
+#button_suscription{
+    height: 36px;
+    width: 150px;
+    font-family: Poppins;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
 }
 #full_nav{
     display: flex;
