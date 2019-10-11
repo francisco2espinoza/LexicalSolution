@@ -51,9 +51,9 @@ nav li a{
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
-    border-color: red;
+    border-color:white;
     border-style: solid;
-    border-width: 5px;
+    border-width: 1px;
 }
 .title_hero{
     font-family: Merriweather;
@@ -76,10 +76,43 @@ nav li a{
     color: white;
 }
 /* Estilos de la seccion "Descripcion" */
+.descripcion{
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 500px;
+    background-color: white;
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    }
+.image_descriptionContainer{
+    width: 45%;
+    padding: 3%;
+}
+.image_description{
+    width: 110%;
+}
+.article_description{
+    /* border-color: green; */
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.title_description{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 h2{
     font-family: Merriweather;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+}
+h4{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
 }
 /*Estilos del Footer */
 footer{
